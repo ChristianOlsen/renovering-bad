@@ -3,8 +3,8 @@ import excel from "@/public/excel.png";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-black p-4 sm:p-8">
-      <div className="flex flex-col gap-6 sm:gap-8 w-full max-w-md">
+    <main className="min-h-screen flex flex-col items-center justify-between bg-black p-4 sm:p-8 pb-48 sm:pb-40">
+      <div className="flex flex-col gap-6 sm:gap-8 w-full max-w-md flex-1 justify-center">
         <h1 className="text-2xl sm:text-4xl font-bold text-white text-center">
           Valhallveien 57 Bad Renovering
         </h1>
@@ -31,9 +31,9 @@ export default function Home() {
           Fremdriftsplan og budsjett
         </a>
       </div>
-      <div className="absolute bottom-6 text-center text-gray-400 text-sm">
+      <div className="sticky bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black to-transparent text-center text-gray-400 text-xs sm:text-sm py-4 sm:py-6 px-4 max-w-full">
         <p className="font-semibold text-white mb-2">Christian Olsen</p>
-        <p>
+        <p className="break-words mb-1">
           <a
             href="https://maps.google.com/?q=Valhallveien+57,+0196+Oslo"
             target="_blank"
@@ -43,10 +43,10 @@ export default function Home() {
             Valhallveien 57, 0196 Oslo, H0301 (3. etasje, høyre inngang)
           </a>
         </p>
-        <p>
+        <p className="mb-1">
           <a
             href="mailto:christian.tkd.olsen@gmail.com"
-            className="hover:text-white transition"
+            className="hover:text-white transition break-words"
           >
             christian.tkd.olsen@gmail.com
           </a>
