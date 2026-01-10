@@ -1,8 +1,11 @@
 import type { NextConfig } from "next";
 
+const basePath = "/renovering-bad";
+
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/renovering-bad",
+  basePath: basePath,
+  assetPrefix: basePath,
   images: {
     unoptimized: true,
   },
