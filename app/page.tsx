@@ -40,7 +40,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="hover:text-white transition"
           >
-            Valhallveien 57, 0196 Oslo, H0301
+            Valhallveien 57, 0196 Oslo, H0301 (3. etasje, høyre inngang)
           </a>
         </p>
         <p>
