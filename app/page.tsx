@@ -33,7 +33,7 @@ export default function Home() {
       </div>
       <div className="sticky bottom-8 left-0 right-0 bg-gradient-to-t from-black via-black to-transparent text-center text-gray-400 text-xs sm:text-sm py-4 sm:py-6 px-4 max-w-full">
         <p className="font-semibold text-white mb-2">Christian Olsen</p>
-        <p className="break-words mb-1">
+        <p className="wrap-break-word mb-1">
           <a
             href="https://maps.google.com/?q=Valhallveien+57,+0196+Oslo"
             target="_blank"
