@@ -31,6 +31,21 @@ export default function Home() {
           Fremdriftsplan og budsjett
         </a>
       </div>
+      <div className="absolute bottom-6 text-center text-gray-400 text-sm">
+        <p>
+          <a
+            href="mailto:christian.tkd.olsen@gmail.com"
+            className="hover:text-white transition"
+          >
+            christian.tkd.olsen@gmail.com
+          </a>
+        </p>
+        <p>
+          <a href="tel:+4791145360" className="hover:text-white transition">
+            +47 91 14 53 60
+          </a>
+        </p>
+      </div>
     </main>
   );
 }
