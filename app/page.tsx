@@ -31,7 +31,7 @@ export default function Home() {
           Fremdriftsplan og budsjett
         </a>
       </div>
-      <div className="sticky bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black to-transparent text-center text-gray-400 text-xs sm:text-sm py-4 sm:py-6 px-4 max-w-full">
+      <div className="sticky bottom-8 left-0 right-0 bg-gradient-to-t from-black via-black to-transparent text-center text-gray-400 text-xs sm:text-sm py-4 sm:py-6 px-4 max-w-full">
         <p className="font-semibold text-white mb-2">Christian Olsen</p>
         <p className="break-words mb-1">
           <a
