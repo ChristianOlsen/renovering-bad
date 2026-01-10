@@ -32,6 +32,17 @@ export default function Home() {
         </a>
       </div>
       <div className="absolute bottom-6 text-center text-gray-400 text-sm">
+        <p className="font-semibold text-white mb-2">Christian Olsen</p>
+        <p>
+          <a
+            href="https://maps.google.com/?q=Valhallveien+57,+0196+Oslo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition"
+          >
+            Valhallveien 57, 0196 Oslo, H0301
+          </a>
+        </p>
         <p>
           <a
             href="mailto:christian.tkd.olsen@gmail.com"
